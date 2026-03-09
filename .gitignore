@@ -12,7 +12,7 @@ packages/*/dist-firefox/
 .env
 
 # Editor files
-.vscode/
+# .vscode/
 .zed/
 .idea/
 *.swp

@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug coding-agent CLI (src)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/packages/coding-agent",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--import", "tsx"],
+      "program": "${workspaceFolder}/packages/coding-agent/src/cli.ts",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Debug ai CLI (src)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/packages/ai",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--import", "tsx"],
+      "program": "${workspaceFolder}/packages/ai/src/cli.ts",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Debug mom CLI (src)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/packages/mom",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--import", "tsx"],
+      "program": "${workspaceFolder}/packages/mom/src/main.ts",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Debug pods CLI (src)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/packages/pods",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--import", "tsx"],
+      "program": "${workspaceFolder}/packages/pods/src/cli.ts",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
