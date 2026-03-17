@@ -12,4 +12,7 @@ Set breakpoints: Place them in .ts files under the package src/.
 - For user input, when do we choose `followup` or `prompt` function call?
 
 ## Agent-loop
-- To support steering mode, loop call tools sequentially, HOw do we approach this in parallel?
+- To support steering mode, loop call tools sequentially, How do we approach this in parallel?
+
+## Good points:
+- Steer and Follow-up queues which can abort ongoing LLM tasks.
